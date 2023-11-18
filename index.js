@@ -9,7 +9,7 @@ let tl = gsap.timeline({
     scrollTrigger: {
         trigger: slider,
         pin: true,
-        scrub: 2, // This means a 2 second delay after the scrollbar has been moved
+        scrub: 1, // This means a 2 second delay after the scrollbar has been moved
         end: () => "+=" + slider.offsetWidth
     }
 })
@@ -37,7 +37,7 @@ sections.forEach((stop, index) => {
             ease: 'elastic.out(1,2)',
             scrollTrigger: {
                 trigger: stop.querySelector('img'),
-                scrub: 2,
+                scrub: 1,
                 containerAnimation: tl
             }
         }, "<")
