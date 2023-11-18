@@ -27,8 +27,6 @@ section {
     display: flex;
     height: calc(100% - 14em);
     align-items: end; }
-    section .inner h1 {
-      text-transform: uppercase; }
     section .inner img {
       position: absolute;
       width: 80%;
@@ -36,7 +34,10 @@ section {
       left: 50%;
       transform: translate(-50%, -50%); }
     section .inner .content {
-      justify-self: flex-end; }
+      justify-self: flex-end;
+      margin-left: 5em; }
+      section .inner .content h1 {
+        text-transform: uppercase; }
       section .inner .content p {
         width: 50%;
         line-height: 1.5;

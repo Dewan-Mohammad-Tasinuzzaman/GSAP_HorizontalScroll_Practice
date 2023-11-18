@@ -34,10 +34,6 @@ section {
         display: flex;
         height: calc(100% - 14em);
         align-items: end;
-
-        h1 {
-            text-transform: uppercase;
-        }
         
         img {
             position: absolute;
@@ -49,6 +45,11 @@ section {
         
         .content {
             justify-self: flex-end;
+            margin-left: 5em;
+
+            h1 {
+                text-transform: uppercase;
+            }
     
             p {
                 width: 50%;

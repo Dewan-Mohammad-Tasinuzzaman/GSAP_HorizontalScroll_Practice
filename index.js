@@ -33,11 +33,11 @@ sections.forEach((stop, index) => {
         })
         .from(stop.querySelector('img'), {
             xPercent: -40,
-            yPercent: -40,
-            ease: 'elastic.out(1,1)',
+            yPercent: 10,
+            ease: 'elastic.out(1,2)',
             scrollTrigger: {
                 trigger: stop.querySelector('img'),
-                scrub: 1,
+                scrub: 2,
                 containerAnimation: tl
             }
         }, "<")
